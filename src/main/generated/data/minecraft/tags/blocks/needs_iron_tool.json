@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:ruby_block",
+    "tutorialmod:raw_block_of_ruby",
+    "tutorialmod:ruby_ore",
+    "tutorialmod:deepslate_ruby_ore",
+    "tutorialmod:sapphire_block",
+    "tutorialmod:raw_block_of_sapphire",
+    "tutorialmod:sapphire_ore",
+    "tutorialmod:deepslate_sapphire_ore"
+  ]
+}
