@@ -16,6 +16,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups(); //Make a new creative tab to hold all the new items
 		ModItems.registerModItems(); //Call the function inside the class
-		ModBlocks.registerModBlocks(); //Makes the blocks blocks
+		ModBlocks.registerModBlocks(); //Makes the blocks
 	}
 }

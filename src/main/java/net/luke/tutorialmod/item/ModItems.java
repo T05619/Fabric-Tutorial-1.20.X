@@ -18,6 +18,9 @@ public class ModItems {
     //Second item is added called raw_ruby
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
+    public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
+
     //Add the item Ruby to the ingredients tab in creative
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
