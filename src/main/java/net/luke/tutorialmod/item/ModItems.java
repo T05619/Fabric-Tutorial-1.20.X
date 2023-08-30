@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.luke.tutorialmod.TutorialMod;
+import net.luke.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
@@ -20,6 +21,9 @@ public class ModItems {
 
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
+
+    //Diamond detector item made from the MetalDectectorItem file which you can see is happening here v
+    public static final Item DIAMOND_DETECTOR = registerItem("diamond_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
 
     //Add the item Ruby to the ingredients tab in creative
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
