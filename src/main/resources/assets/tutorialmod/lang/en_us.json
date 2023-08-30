@@ -30,5 +30,7 @@
   "item.tutorialmod.coal_bit": "Coal Bit",
   "item.tutorialmod.pine_cone": "Pine Cone",
 
+  "tooltip.tutorialmod.diamond_detector.tool": "Finds ores underground",
+
   "itemgroup.ruby": "Mod Group"
 }
