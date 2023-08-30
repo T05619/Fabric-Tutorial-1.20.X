@@ -29,6 +29,10 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
 
+    //FUEL
+    public static final Item COAL_BIT = registerItem("coal_bit", new Item(new FabricItemSettings()));
+    public static final Item PINE_CONE = registerItem("pine_cone", new Item(new FabricItemSettings()));
+
     //Add the item Ruby to the ingredients tab in creative
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

@@ -45,6 +45,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.STRAWBERRY);
+
+                        entries.add(ModItems.COAL_BIT);
+                        entries.add(ModItems.PINE_CONE);
                     }).build());
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
