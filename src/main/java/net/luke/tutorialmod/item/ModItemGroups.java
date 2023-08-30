@@ -35,6 +35,14 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModItems.RAW_SAPPHIRE);
+
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.RAW_BLOCK_OF_SAPPHIRE);
+
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.NETHER_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.END_STONE_SAPPHIRE_ORE);
                     }).build());
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
