@@ -11,6 +11,7 @@
   "block.tutorialmod.end_stone_ruby_ore": "End Stone Ruby Ore",
 
   "item.tutorialmod.diamond_detector": "Diamond Detector",
+  "block.tutorialmod.sound_block": "Sound Block",
 
   "item.tutorialmod.sapphire": "Sapphire",
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
@@ -23,6 +24,5 @@
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.tutorialmod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
 
-  "itemgroup.ruby": "Ruby Group",
-  "itemgroup.sapphire": "Sapphire Group"
+  "itemgroup.ruby": "Mod Group"
 }

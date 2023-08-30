@@ -29,12 +29,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
 
                         entries.add(ModItems.DIAMOND_DETECTOR);
-                    }).build());
 
-    public static  final ItemGroup SAPPHIRE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TutorialMod.MOD_ID, "sapphire"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.sapphire"))
-                    .icon(() -> new ItemStack(ModItems.SAPPHIRE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModItems.RAW_SAPPHIRE);
 
@@ -45,6 +40,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                         entries.add(ModBlocks.NETHER_SAPPHIRE_ORE);
                         entries.add(ModBlocks.END_STONE_SAPPHIRE_ORE);
+
+                        entries.add(ModBlocks.SOUND_BLOCK);
                     }).build());
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
