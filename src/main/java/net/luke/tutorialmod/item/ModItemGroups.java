@@ -42,6 +42,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_SAPPHIRE_ORE);
 
                         entries.add(ModBlocks.SOUND_BLOCK);
+
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.STRAWBERRY);
                     }).build());
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);

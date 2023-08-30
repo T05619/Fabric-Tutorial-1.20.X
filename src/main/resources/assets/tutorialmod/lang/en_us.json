@@ -24,5 +24,8 @@
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.tutorialmod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
 
+  "item.tutorialmod.tomato": "Tomato",
+  "item.tutorialmod.strawberry": "Strawberry",
+
   "itemgroup.ruby": "Mod Group"
 }

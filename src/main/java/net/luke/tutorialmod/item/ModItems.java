@@ -25,6 +25,10 @@ public class ModItems {
     //Diamond detector item made from the MetalDectectorItem file which you can see is happening here v
     public static final Item DIAMOND_DETECTOR = registerItem("diamond_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
 
+    //FOOD
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item STRAWBERRY = registerItem("strawberry", new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
+
     //Add the item Ruby to the ingredients tab in creative
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
